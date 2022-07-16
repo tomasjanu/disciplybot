@@ -1,0 +1,16 @@
+casovy modul > Pico:
+- GND > GND
+- PWD > VBUS
+- SDA > Pin0
+- SCL > Pin1
+
+LEDs > Pico
+- 3V3 > Anode(+) through resistor (68 Ohm)
+- Cathode (-) to pins:
+    - GP20, 19, 18
+- (Power Leds PINS: GP27, 26)
+
+Buttons > Pico
+- 3V3 on one side
+- PINS: GP11, 12, 13
+
